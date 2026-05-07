@@ -1,0 +1,57 @@
+{
+  "Geometric": {
+    "CNN": {
+      "precision": 0.0886,
+      "recall": 0.5441,
+      "f1": 0.1523
+    },
+    "Sobel": {
+      "precision": 0.4662,
+      "recall": 1.0,
+      "f1": 0.6359
+    }
+  },
+  "Complex": {
+    "CNN": {
+      "precision": 0.0654,
+      "recall": 0.6859,
+      "f1": 0.1194
+    },
+    "Sobel": {
+      "precision": 0.3663,
+      "recall": 1.0,
+      "f1": 0.5362
+    }
+  },
+  "Noisy": {
+    "CNN": {
+      "precision": 0.3372,
+      "recall": 0.3357,
+      "f1": 0.3365
+    },
+    "Sobel": {
+      "precision": 0.4383,
+      "recall": 0.9778,
+      "f1": 0.6052
+    }
+  },
+  "Fine Lines": {
+    "CNN": {
+      "precision": 0.1199,
+      "recall": 0.0744,
+      "f1": 0.0918
+    },
+    "Sobel": {
+      "precision": 0.819,
+      "recall": 1.0,
+      "f1": 0.9005
+    }
+  },
+  "summary": {
+    "avg_f1_cnn": 0.175,
+    "avg_f1_sobel": 0.6695,
+    "improvement_pct": -73.86,
+    "total_params": 57036,
+    "num_classes": 12
+  }
+}
