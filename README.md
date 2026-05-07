@@ -99,13 +99,12 @@ Dense(12) → Softmax
 
 | Model | Test Accuracy | Notes |
 |-------|--------------|-------|
-| CNN v1 | ~XX% | Trained on synthetic data only |
-| CNN v2 | ~XX% | Fine-tuned on natural-like images |
-| CNN v3 | ~XX% | Best architecture config |
+| CNN v1 | 98.62% | Trained on synthetic data only |
+| CNN v2 | 98.52% | Fine-tuned on natural-like images |
+| CNN v3 | 99.17% | Best architecture config |
 | Sobel (baseline) | — | Used as reference |
 | Canny (baseline) | — | Used as F1 reference |
 
-> Fill in your actual accuracy numbers after running the notebooks.
 
 ---
 
