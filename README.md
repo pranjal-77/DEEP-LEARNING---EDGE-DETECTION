@@ -1,4 +1,4 @@
-# 🧠 CNN-Based Semantic Edge Detector
+# 🧠Deep Learing Edge Detection Model 
 
 A deep learning project that classifies **12 types of edges** in image patches using a custom CNN trained on synthetic and natural image data. Built as a resume project demonstrating a complete 5-stage ML pipeline — from data generation to real-image evaluation.
 
